@@ -4,7 +4,7 @@ require 'mina/git'
 # require 'mina/rvm'    # for rvm support. (https://rvm.io)
 
 set :application_name, 'MinaDeployTestMyApp'
-set :domain, '13.209.64.175'
+set :domain, ''
 set :deploy_to, '/home/ec2_user/MinaDeployTestMyApp'
 set :repository, 'https://github.com/KIMJUNGKWON/mina_deploy_test.git'
 set :branch, 'master'
